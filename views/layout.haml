@@ -1,0 +1,42 @@
+!!! 5
+%html
+  %head
+    %title #{@page_title}
+    %script{:type => 'text/javascript', :src => 'javascripts/jquery.min.js'}
+    %script{:type => 'text/javascript', :src => 'javascripts/jquery.countdown.js'}
+    %script{:type => 'text/javascript', :src => 'javascripts/application.js'}
+    %link{:rel => 'stylesheet', :href => 'stylesheets/application.css'}
+  %body
+    %section
+      %h1 Michael Macasek and Rachel Zettel Wedding
+      %h4{:id => 'countdown'}
+    %nav
+      %ul
+        %li 
+          %a{:href => '/'} Home
+        %li 
+          %a{:href => '/our_story'} Our Story
+        %li 
+          %a{:href => '/wedding_party'} Wedding Party
+        %li 
+          %a{:href => '/schedule'} Schedule
+        %li 
+          %a{:href => '/travel'} Travel
+        %li 
+          %a{:href => '/registry'} Registry
+        %li 
+          %a{:href => '/rsvp'} RSVP
+    %section.content
+
+    = yield
+
+    %footer
+      %p{:class => 'right'}
+        %span Copyright &copy;2013 Michael Macasek & Rachel Zettel
+      %a{:href => '/'} Home
+      %a{:href => '/our_story'} Our Story
+      %a{:href => '/wedding_party'} Wedding Party
+      %a{:href => '/schedule'} Schedule
+      %a{:href => '/travel'} Travel
+      %a{:href => '/registry'} Registry
+      %a{:href => '/rsvp'} RSVP

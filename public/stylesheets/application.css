@@ -1,0 +1,12 @@
+h1 {
+  margin-bottom: 2px;
+}
+
+.small {
+  font-size: .8em;
+}
+
+.right {
+	float:right;
+	display:inline
+}
