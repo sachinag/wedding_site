@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Michael and Rachel</title>  
+    <meta name="description" content="Join us to celebrate our wedding on the 25th of May, 2014 at Castle Hill on The Crane Estate in Massachusetts" />
+    <meta name="keywords" content="wedding, wedding invitation, website, wedding website, online wedding" />
+    <!--<meta name="viewport" content="width=device-width; initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" media="screen" href="stylesheets/style.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="stylesheets/prettyPhoto.css" type="text/css" />
+    <!--[if IE 7 ]><link rel="stylesheet" href="stylesheets/ie.css" media="all"/><![endif]-->
+    <!--[if IE 8 ]><link rel="stylesheet" href="stylesheets/ie.css" media="all"/><![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="favicon.png" /> 
+    <link rel="apple-touch-startup-image" href="favicon.png" />
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" charset="utf-8" src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="javascripts/jquery.gmap.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="javascripts/jquery.cycle.all.js"></script>
+    <script type="text/javascript" charset="utf-8" src="javascripts/jquery.function.js"></script>
+    <script type="text/javascript" charset="utf-8" src="javascripts/slides.min.jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="javascripts/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" charset="utf-8" src="javascripts/jquery.mousewheel.js"></script>
+  </head>
+  <body>
+    <div class="controller">
+      <div class="container">
+        <div class="cont-inside">
+          <div id="top">
+            <ul id="menu">
+              <li><a href="/" class="menu-style not-this">Home</a></li>
+              <li><a href="/our_story" class="menu-style not-this">Our Story</a></li>
+              <li><a href="/wedding_party" class="menu-style not-this">Wedding Party</a></li>
+              <li><a href="/travel" class="menu-style not-this">Travel</a></li>
+              <li><a href="/registry" class="menu-style not-this">Registry</a></li>
+              <li><a href="/rsvp" class="menu-style not-this">RSVP</a></li>
+            </ul>
+            <div id="mobile">
+              <select id="dynamic_select" class="form-select-mobile">
+                <option value="" selected>Please, select a page</option>
+                <option value="/">Home</option>
+                <option value="/our_story">Our Story</option>
+                <option value="/wedding_party">Wedding Party</option>
+                <option value="/travel">Travel</option>
+                <option value="/registry">Registry</option>
+                <option value="/rsvp">RSVP</option>
+              </select>
+            </div>
+          </div>
+
+          <%= yield %>
+
+          <div class="footer-image"><div class="bottom-logo"></div></div>
+        </div>
+
+        <div class="footer">
+          <div class="three-column" style="padding-right:17px;">
+            <div class="popular-post-lightcolor">Day of Details</div>
+            <div class="border2"></div>
+            <br />
+            <div class="popular-item-lightcolor">May 25th 2014</div>
+            <div class="popular-item-lightcolor">Castle Hill on The Crane Estate</div>
+            <div class="popular-item-lightcolor">Ceremony starts at: </div>
+            <div class="popular-item-lightcolor">Reception to follow</div>
+            <div class="popular-item-lightcolor">There will be bus(es) from the Cambridge area</div>
+            <br />
+          </div>
+                
+          <div class="three-column" style="padding-right:0px;margin-left:30px;">
+            <div class="map-lightcolor">Location</div>
+            <div class="border2"></div>
+            <br />
+            <iframe width="500" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Castle+Hill,+290+Argilla+Road,+Ipswich,+MA+01938&amp;hl=en&amp;sll=42.679628,-70.777016&amp;sspn=0.036029,0.046477&amp;hq=Castle+Hill,+290+Argilla+Road,+Ipswich,+MA+01938&amp;t=m&amp;ie=UTF8&amp;cid=1946555043017381601&amp;hnear=&amp;ll=42.685275,-70.779161&amp;spn=0.012619,0.043001&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Castle+Hill,+290+Argilla+Road,+Ipswich,+MA+01938&amp;hl=en&amp;sll=42.679628,-70.777016&amp;sspn=0.036029,0.046477&amp;hq=Castle+Hill,+290+Argilla+Road,+Ipswich,+MA+01938&amp;t=m&amp;ie=UTF8&amp;cid=1946555043017381601&amp;hnear=&amp;ll=42.685275,-70.779161&amp;spn=0.012619,0.043001&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

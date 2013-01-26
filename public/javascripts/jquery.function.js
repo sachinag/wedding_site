@@ -1,0 +1,44 @@
+﻿//mobile
+$(function(){
+      // bind change event to select
+      $('#dynamic_select').bind('change', function () {
+          var url = $(this).val(); // get selected value
+          if (url) { // require a URL
+              window.location = url; // redirect
+          }
+          return false;
+      });
+    });
+
+//scroll
+$(document).ready(function(){
+	
+	$(".scroller").click(function(event){
+		
+		//event.preventDefault();
+
+		var full_url = this.href;		
+		var parts = full_url.split("#");
+		var trgt = parts[1];
+		
+		var target_offset = $("#"+trgt).offset();
+		var target_top = target_offset.top;
+
+
+		$('html, body').animate({scrollTop:target_top}, 900);
+	});
+	
+});
+
+//pretty-image
+$(document).ready(function(){
+	$(".image-area a[rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'dark_square',slideshow:2000, autoplay_slideshow: false});
+});
+
+//pretty-video
+$(document).ready(function(){
+	$("#blog a[rel^='prettyVideo']").prettyPhoto({animationSpeed:'slow',theme:'dark_square',slideshow:2000, autoplay_slideshow: false});
+});
+ 
+jQuery('.prev').css('display','block');
+

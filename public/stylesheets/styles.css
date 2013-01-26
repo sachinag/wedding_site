@@ -1,0 +1,163 @@
+/*-----------------------------------------------------------------------------------
+	Theme Name: Wedding Day
+	Author: geceolurken
+	Author URI: http://themeforest.net/user/geceolurken?ref=geceolurken
+	Description: Wedding Day, Another wedding theme by pulyaVserdce
+	Author: geceolurken
+	Theme URI: http://themes.pulyavserdce.com/wedding-day/
+
+/*-----------------------------------------------------------------------------------*/
+
+@charset "utf-8";
+
+
+/*--------------------------------------------------------
+	1.Desktops
+--------------------------------------------------------*/
+
+@media screen and (min-width:1001px) {
+
+	.container{width:942px;}
+	.menu{width:842px;letter-spacing:1px;margin-left:49px;}
+	#top{margin-left:50px;width:842px;height:82px;}
+	#menu{width:690px!important;}
+	#mobile{display:none;}
+	.menu-style{margin-right:9px;}
+	#home{width:842px;margin-left:49px;}
+	.home-image-area{width:606px;height:296px;background:url(../images/home-bg.png) no-repeat center;}
+	.home-main-image-text {width:842px;}
+	.home-text{padding:0px 110px;}
+	.footer{width:942px;}
+	div.page{margin-left:49px;margin-right:49px;width:622px;padding:0px 110px;}
+	.image-area-list{padding:3px;}
+	.image-area-list li a {margin:9px;}
+	#slides{margin:auto;width:100%;height:500px!important;padding-bottom:30px;}
+	#slides .slides_container, #slides .slide{width:622px;}
+	.caption {width:100%;top:240px;left:0;padding-right:10px;}
+	.image-slide-fix{width:604px;margin-left:3px;}
+	#map1, #map2{height:200px;width:622px;}
+	.registry-area{padding-top:60px;min-height:340px;}
+	.registry-list li a {margin:7px;}
+	.oot-01{width:250px;padding:10px 30px;}
+	.form-left{margin-left:4px;}
+	.footer{width:784px;}
+	.footer-image{background:url(../images/footer.png) no-repeat center;}
+	.three-column{width:31%;}
+}
+	
+/*--------------------------------------------------------
+	2.Tablets (800x600)
+--------------------------------------------------------*/
+
+@media screen and (min-width:799px) and (max-width:1000px) {
+
+	.container{width:800px;}
+	.menu{width:742px;letter-spacing:1px;margin-left:49px;}
+	#top{width:692px;margin-left:54px;height:82px;}
+	#menu{width:690px!important;padding-left:12px;}
+	#mobile{display:none;}
+	.menu-style{margin-right:7px;}
+	#home{width:742px;margin-left:30px;}
+	.home-image-area{width:606px;height:296px;background:url(../images/home-bg.png) no-repeat center;}
+	.home-main-image-text {width:742px;}
+	.home-text{padding:0px 110px;}
+	.footer{width:800px;}
+	div.page{margin-left:30px;margin-right:30px;width:632px;padding:0px 55px;}
+	.image-area-list {padding:12px;}
+	.image-area-list li a {margin:7px;}
+	#slides{margin:auto;width:100%;height:500px!important;padding-bottom:30px;}
+	#slides .slides_container, #slides .slide{width:620px;}
+	.caption {width:100%;top:240px;left:0;padding-right:10px;}
+	.image-slide-fix{width:600px;margin-left:8px;}
+	#map1, #map2{height:200px;width:620px;}
+	.registry-area{padding-top:20px;min-height:340px;}
+	.registry-list li a {margin:1px;}
+	#registry-list{margin-left:15px;}
+	.oot-01{width:250px;margin:10px 32px;}
+	.form-left{}
+	.image-blog-fix{width:620px;}
+	.footer{width:784px;}
+	.footer-image{background:url(../images/footer-800.png) no-repeat;background-position:30px 0px;}
+	.three-column{width:31%;}
+}
+
+/*--------------------------------------------------------
+	2.Tablets (600x800)
+--------------------------------------------------------*/
+
+@media screen and (min-width:592px) and (max-width:799px) {
+
+	.container{width:600px;}
+	.menu{width:600px;letter-spacing:1px;margin-left:49px;}
+	#top{margin-left:31px;width:542px;height:82px;}
+	#mobile{display:none;}
+	#menu{letter-spacing:-2px;padding-left:20px;}
+	.menu-style{margin-right:0px;}
+	#home{width:542px;margin-left:30px;}
+	.home-image-area{width:450px;height:296px;background:url(../images/home-bg-600.png) no-repeat center;}
+	.home-image-fix{width:400px;margin-top:50px;}
+	.home-main-image-text{width:100%;}
+	.home-text{padding:0px 0px;}
+	.footer{width:600px;}
+	div.page{width:492px;margin-left:30px;padding-left:25px;padding-right:25px;}
+	.image-area-list {margin-left:40px;}
+	.image-area{height:430px!important;}
+	.image-area-list li a {margin:9px;}
+	#slides{margin:auto;width:480px;height:525px;}
+	#slides .slides_container{width:480px;}
+	.caption {width:500px;top:200px;left:0;padding-right:10px;}
+	.image-slide-fix{width:400px;margin-left:8px;}
+	#map1, #map2{height:200px;width:100%;}
+	.image-slide-fix{width:450px;}
+	.registry-area{padding-top:20px;height:480px;}
+	.registry-list li a {margin:15px;}
+	#registry-list{margin-left:20px;}
+	.oot-01{width:200px;margin:10px 22px;}
+	.image-blog-fix{width:480px;}
+	.image-fix{width:186px;}
+	.footer{width:484px;padding:0px 50px;}
+	.footer-image{background:url(../images/footer-600.png) no-repeat;background-position:30px 0px;}
+	.three-column{width:100%;}
+
+}
+
+/*--------------------------------------------------------
+	2.Smartphones
+--------------------------------------------------------*/
+
+@media screen and (min-width:0px) and (max-width:591px) {
+
+	.container{width:322px;}
+	.menu{width:320px;letter-spacing:1px;}
+	#top{margin-left:1px;width:320px;height:82px;}
+	#mobile{margin-top:-57px;padding:0px 10%;}
+	#menu{text-indent:-9999px;}
+	.menu-style{margin-right:0px;}
+	#home{width:320px;}
+	.home-image-area{width:256px;height:146px;background:url(../images/home-bg-m.png) no-repeat center;}
+	.home-image-fix{width:241px;margin-top:15px;}
+	.home-main-image-text{width:100%;}
+	.footer{width:320px;}
+	div.page{width:270px;padding-left:25px;padding-right:25px;}
+	.image-area-list {margin-left:30px;}
+	.image-area{min-height:430px!important;}
+	.image-area-list li a {margin:9px;}
+	#slides{margin:auto;width:270px;height:625px;}
+	#slides .slides_container{width:270px;}
+	.caption {width:250px;top:100px;left:0;padding-left:10px;}
+	.image-slide-fix{width:400px;margin-left:8px;}
+	#map1, #map2{height:250px;width:100%;}
+	.image-slide-fix{width:250px;}
+	.registry-area{padding-top:20px;height:480px;}
+	.registry-list li a {margin:15px;}
+	#registry-list{margin-left:20px;}
+	.oot-01{width:225px;margin:10px 22px;}
+	.image-blog-fix{width:250px;}
+	.image-fix{width:186px;}
+	.footer{width:220px;padding:0px 50px;}
+	.footer-image{background:url(../images/footer-m.png) no-repeat;}
+	.three-column{width:100%;}
+
+}
+
+	
