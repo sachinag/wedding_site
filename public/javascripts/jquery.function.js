@@ -42,3 +42,8 @@ $(document).ready(function(){
  
 jQuery('.prev').css('display','block');
 
+
+$(document).ready(function(){
+	$("#map1").gMap({ address: "Castle+Hill,+290+Argilla+Road,+Ipswich,+MA+01938", zoom:15 });
+});
+
