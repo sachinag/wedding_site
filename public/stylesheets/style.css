@@ -115,6 +115,18 @@
 	-----------------------------*/
 	
 	#our-story{text-align:left;}
+
+	/*----------------------------
+	ii.-- restaurants
+	-----------------------------*/
+	
+	#restaurants{text-align:left;}
+
+	/*----------------------------
+	ii.-- things-to-do
+	-----------------------------*/
+	
+	#things-to-do{text-align:left;}
 	
 	/*----------------------------
 	iii.-- photos
@@ -153,10 +165,10 @@
 	.registry-list li a {display:block;width:190px;height:60px;float:left;}
 	
 	/*----------------------------
-	vi.-- out-of-towners
+	vi.-- travel
 	-----------------------------*/
 	
-	#out-of-towners{text-align:center;}
+	#travel{text-align:center;}
 	.oot-01{float:left;}
 	
 	/*----------------------------
@@ -171,12 +183,12 @@
 	#note{color:#000000;text-align:left;display:none;font-family:'TitilliumLight';font-size:14px;position:relative;margin-left:125px;bottom:37px;}
 
 	/*----------------------------
-	viii.-- thank-you
+	viii.-- wedding-party
 	-----------------------------*/
 	
-	#thank-you{text-align:center;}
-	#thank-you .section-01{width:100%;float:left;}
-	#thank-you h4, #thank-you h6{text-align:center;}
+	#wedding-party{text-align:center;}
+	#wedding-party .section-01{width:100%;float:left;}
+	#wedding-party h4, #wedding-party h6{text-align:center;}
 	
 	/*----------------------------
 	ix.-- blog
