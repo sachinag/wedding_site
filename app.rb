@@ -36,10 +36,22 @@ get '/travel' do
   erb :travel
 end
 
+get '/hotels' do
+  @page_title = set_title('Hotels')
+
+  erb :hotels
+end
+
 get '/restaurants' do
   @page_title = set_title('Restaurants')
 
   erb :restaurants
+end
+
+get '/transportation' do
+  @page_title = set_title('Transportation')
+
+  erb :transportation
 end
 
 get '/things_to_do' do
